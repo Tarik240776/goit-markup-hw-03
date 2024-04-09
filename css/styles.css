@@ -32,6 +32,10 @@ address {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-left: auto;
+}
+img {
+    display: block;
 }
 
 body {
@@ -48,6 +52,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 
 .header-logo-word {
@@ -69,6 +74,10 @@ color:#404bbf;
 .header-menu-link:focus {
    color:#404bbf;
 }
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-address-link {
         font-weight: 400;
@@ -80,7 +89,10 @@ color:#404bbf;
 
 .header-address {
     font-style: normal;
+    
+    
 }
+
 .header-address-link:hover {
     color: #404bbf;
 }
@@ -90,6 +102,18 @@ color:#404bbf;
 }
 .header {
     background: #fff;
+}
+.header-container {
+    display: flex;
+}
+.header-nav {
+    display: flex;
+    margin-right: 332px;
+    align-items: center;
+}
+.header-address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .hero {
@@ -127,7 +151,10 @@ padding-bottom: 188px;
          background-color: #4D5AE5;
          max-width: 169px;
          margin: 0 avto;
-         display: block;
+        display: block;
+         border-radius: 4px;
+         padding: 16px 32px;
+         border: none;
 }
 
 
@@ -137,6 +164,18 @@ background-color: #404BBF;
 
 .hero-btn-main:focus {
     background-color: #404BBF;
+}
+.solution {
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+}
+.solution-section-list {
+    display: flex;
+    gap: 24px;
+}
+.solution-section-item {
+    width: calc((100% - 3 * 24px) / 4);
 }
 .solution-section-iink {
     
@@ -171,6 +210,11 @@ background-color: #404BBF;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
+}
+.team-main-list {
+    display: flex;
+    gap: 24px;
 }
 
 
@@ -195,6 +239,7 @@ background-color: #404BBF;
 }
 .team-main-item {
     background-color: #FFFFFF;
+    width: calc((100% - 2 * 24px) / 3);
 }
 .working-main {
     padding-top: 120px;
@@ -210,6 +255,13 @@ background-color: #404BBF;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
+}
+.working-main-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    
 }
 
 .working-main-subtitle {
@@ -228,6 +280,9 @@ background-color: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+.working-main-item {
+  
 }
 .footer-main {
     padding-top: 120px;
